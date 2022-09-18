@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.Filter-Item {
+  display: flex;
+}
+
+.Filter-ItemText {
+  margin-left: 1rem;
+}
+
+.Flight-DataBox {
+  width: 15rem;
+  height: 20rem;
+  border: 1px solid black;
+  padding: 1rem;
+  margin-left: 1rem;
+  overflow: scroll;
+}
+.Filter-Box {
+  padding: 2rem;
+  border: 1px solid black;
+  width: 15rem;
+}
+.Flight-InfoBox {
+  padding: 1rem;
+  background-color: whitesmoke;
+  color: grey;
+  margin: 0.2rem;
+}
+
+.main {
+  display: flex;
+  margin: 1rem;
+  justify-content: center;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
